@@ -1,3 +1,4 @@
+/* Import all of the customized Bootstrap SASS */
 @import "./scss/custom.scss";
 
 .App {
@@ -34,7 +35,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* 
+ *  Make the section take up the whole vertical space - (header height + footer height + section top and bottom margins)
+ *  so that the footer sticks to the bottom of the page but scrolls with the content.
+ */
+section {
+  min-height: calc(100vh - 248px);
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Portfolio(props) {
     return (
-        <section className="container-fluid">
+        <section className="container-fluid my-4">
             <h2 className="my-4 ms-3">Portfolio</h2>
             <div className="row m-2">
                 <div className="col-sm-6 col-lg-4 col-xxl-3 p-0">

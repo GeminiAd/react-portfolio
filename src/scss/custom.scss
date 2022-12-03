@@ -1,3 +1,14 @@
+/*
+ *  This file modifies the default Bootstrap SASS variables to my own custom theme.
+ *  See https://getbootstrap.com/docs/5.2/customize/sass/ for details.
+ *
+ *  I feel like Bootstrap always touts how easy it is to customize their themes using SASS, but to do that
+ *  you have to import all of their source code, install a sass compiler, and use an autoprefixer to have it work.
+ *  That sounded like to much trouble for me in my earlier projects, but since I'm importing all the Bootstrap
+ *  source files into this project I felt like it was a good time to experiment with Bootstrap SASS customization
+ *  and how it works.
+ */
+
 // Custom.scss
 // Option B: Include parts of Bootstrap
 

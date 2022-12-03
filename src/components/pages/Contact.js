@@ -2,8 +2,8 @@ import React from "react";
 
 function Contact(props) {
     return (
-        <section className="container-fluid m-4">
-            <div className="row">
+        <section className="container-fluid my-4">
+            <div className="row mx-3">
                 <div className="col-6 p-0">
                     <h2 className="mb-3">Contact</h2>
                     <div className="mb-3">
