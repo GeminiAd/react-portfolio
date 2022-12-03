@@ -2,8 +2,8 @@ import React from "react";
 
 function Resume(props) {
     return (
-        <section class="m-4">
-            <h2 class="mb-4">Resume</h2>
+        <section className="m-4">
+            <h2 className="mb-4">Resume</h2>
             <p>Download my resume</p>
             <h3>Front-end Proficiencies</h3>
             <ul>

@@ -9,3 +9,27 @@ h1 {
 #about-me-photo {
     max-height: 300px;
 }
+
+footer {
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+footer>div>ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer>div>ul>li {
+    border: none;
+    width: fit-content;
+    display: inline;
+}
+
+.bi-linkedin {
+    margin-left: .1em;
+}
+
+section {
+    min-height: calc(100vh - 248px);
+}
