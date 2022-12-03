@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.scss';
-import Header from './components/Header'
+import PortfolioContainer from './components/PortfolioContainer'
 
 function App() {
 
-  return (<Header />);
+  return (<PortfolioContainer />);
 
   // return (
   //   <div className="App">
