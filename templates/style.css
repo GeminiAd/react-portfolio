@@ -1,0 +1,7 @@
+header {
+    height: 100px;
+}
+
+h1 {
+    height: min-content;
+}
