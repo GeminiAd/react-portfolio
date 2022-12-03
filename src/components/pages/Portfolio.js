@@ -3,6 +3,7 @@ import React from "react";
 function Portfolio(props) {
     return (
         <section className="container-fluid">
+            <h2 className="my-4 ms-3">Portfolio</h2>
             <div className="row m-2">
                 <div className="col-sm-6 col-lg-4 col-xxl-3 p-0">
                     <div className="card shadow m-2">
@@ -25,7 +26,7 @@ function Portfolio(props) {
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }
 
