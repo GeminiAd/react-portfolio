@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Header from './Header';
 import About from './pages/About'
 import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume'
 
 function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About');
@@ -11,6 +13,10 @@ function PortfolioContainer() {
             return <About />
         } else if (currentPage === "Portfolio") {
             return <Portfolio />
+        } else if (currentPage === "Contact") {
+            return <Contact />
+        } else if (currentPage === "Resume") {
+            return <Resume />
         }
     }
 
