@@ -1,43 +1,43 @@
 import React from "react";
 import Project from "../Project"
-import MassMatchupImage from '../img/mass-matchup.png';
-import GeoChartTrackerImage from '../img/geo-chart-tracker.png';
-import WeatherDashboardImage from '../img/weather-dashboard.png';
-import CodeQuizImage from '../img/code-quiz.png';
 
 function Portfolio(props) {
     const projects = [
         {
             id: 0,
             name: "Mass Matchup",
-            img: MassMatchupImage,
+            img: "mass-matchup.png",
             github: "https://github.com/theDomConrad/Mass-Matchup",
             link: "https://mass-matchup.herokuapp.com/",
-            tech: "MySQL/Express/Handlebars"
+            tech: "MySQL/Express/Handlebars",
+            css: "MassMatchup"
         },
         {
             id: 1,
             name: "Geo Chart Tracker",
-            img: GeoChartTrackerImage,
+            img: 'geo-chart-tracker.png',
             github: "https://github.com/JCaloca/Geo-Chart-Tracker",
             link: "https://jcaloca.github.io/Geo-Chart-Tracker/",
-            tech: "HTML/CSS/JS"
+            tech: "HTML/CSS/JS",
+            css: "GeoChartTracker"
         },
         {
             id: 2,
             name: "Weather Dashboard",
-            img: WeatherDashboardImage,
+            img: 'weather-dashboard.png',
             github: "https://github.com/GeminiAd/weather-dashboard",
             link: "https://geminiad.github.io/weather-dashboard/",
-            tech: "HTML/CSS/JS"
+            tech: "HTML/CSS/JS",
+            css: "WeatherDashboard"
         },
         {
             id: 3,
             name: "Code Quiz",
-            img: CodeQuizImage,
+            img: "code-quiz.png",
             github: "https://github.com/GeminiAd/code-quiz",
             link: "https://geminiad.github.io/code-quiz/",
-            tech: "HTML/CSS/JS"
+            tech: "HTML/CSS/JS",
+            css: "CodeQuiz"
         },
 
     ];
@@ -52,7 +52,9 @@ function Portfolio(props) {
                         name={project.name}
                         img={project.img}
                         github={project.github}
+                        link={project.link}
                         tech={project.tech}
+                        css={project.css}
                     />
                 )}
             </div>

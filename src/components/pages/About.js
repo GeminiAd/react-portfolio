@@ -1,5 +1,4 @@
 import React from "react";
-import myPhoto from '../img/photo-me.png';
 
 function About(props) {
     const styles = {
@@ -12,7 +11,7 @@ function About(props) {
         <section className="m-4 mt-4">
             <h2 className="mb-4">About me</h2>
             <figure className="figure">
-                <img src={myPhoto} alt="Me" id="about-me-photo" className="figure-img img-fluid rounded shadow" style={styles.myPhoto} />
+                <img src={process.env.PUBLIC_URL + '/img/photo-me.png'} alt="Me" id="about-me-photo" className="figure-img img-fluid rounded shadow" style={styles.myPhoto} />
                 <figcaption id="about-me-text" className="figure-caption">
                     <h3>Adam Ferro</h3>
                     <p>I am an aspiring developer.</p>
