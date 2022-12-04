@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMeImage from '../img/photo-me.png';
 
 function About(props) {
     const styles = {
@@ -9,9 +10,9 @@ function About(props) {
 
     return (
         <section className="m-4 mt-4">
-            <h2 className="mb-4">About me</h2>
-            <figure className="figure">
-                <img src={process.env.PUBLIC_URL + '/img/photo-me.png'} alt="Me" id="about-me-photo" className="figure-img img-fluid rounded shadow" style={styles.myPhoto} />
+            <h2 className="mb-4">About Me</h2>
+            <figure className="figure d-flex flex-column flex-sm-row m-0 align-items-start align-items-sm-start">
+                <img src={AboutMeImage} alt="Me" id="about-me-photo" className="figure-img img-fluid rounded shadow me-3 mb-3" style={styles.myPhoto} />
                 <figcaption id="about-me-text" className="figure-caption">
                     <h3>Adam Ferro</h3>
                     <p>I am an aspiring developer.</p>

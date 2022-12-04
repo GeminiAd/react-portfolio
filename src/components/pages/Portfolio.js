@@ -1,12 +1,17 @@
 import React from "react";
 import Project from "../Project"
+import MassMatchupImage from "../img/mass-matchup.png";
+import GeoChartTrackerImage from "../img/geo-chart-tracker.png";
+import WeatherDashboardImage from "../img/weather-dashboard.png";
+import CodeQuizImage from "../img/code-quiz.png";
+import TechBlogImage from "../img/tech-blog.png";
 
 function Portfolio(props) {
     const projects = [
         {
             id: 0,
             name: "Mass Matchup",
-            img: "mass-matchup.png",
+            img: MassMatchupImage,
             github: "https://github.com/theDomConrad/Mass-Matchup",
             link: "https://mass-matchup.herokuapp.com/",
             tech: "MySQL/Express/Handlebars",
@@ -15,7 +20,7 @@ function Portfolio(props) {
         {
             id: 1,
             name: "Geo Chart Tracker",
-            img: 'geo-chart-tracker.png',
+            img: GeoChartTrackerImage,
             github: "https://github.com/JCaloca/Geo-Chart-Tracker",
             link: "https://jcaloca.github.io/Geo-Chart-Tracker/",
             tech: "HTML/CSS/JS",
@@ -23,17 +28,26 @@ function Portfolio(props) {
         },
         {
             id: 2,
+            name: "Tech Blog",
+            img: TechBlogImage,
+            github: "https://github.com/GeminiAd/tech-blog",
+            link: "https://salty-crag-65332.herokuapp.com/",
+            tech: "Handlebars/SQL/Express",
+            css: "TechBlog"
+        },
+        {
+            id: 3,
             name: "Weather Dashboard",
-            img: 'weather-dashboard.png',
+            img: WeatherDashboardImage,
             github: "https://github.com/GeminiAd/weather-dashboard",
             link: "https://geminiad.github.io/weather-dashboard/",
             tech: "HTML/CSS/JS",
             css: "WeatherDashboard"
         },
         {
-            id: 3,
+            id: 4,
             name: "Code Quiz",
-            img: "code-quiz.png",
+            img: CodeQuizImage,
             github: "https://github.com/GeminiAd/code-quiz",
             link: "https://geminiad.github.io/code-quiz/",
             tech: "HTML/CSS/JS",

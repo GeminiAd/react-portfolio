@@ -1,10 +1,12 @@
 import React from "react";
+import ContactForm from '../ContactForm';
 
 function Contact(props) {
     return (
         <section className="container-fluid my-4">
             <div className="row mx-3">
-                <div className="col-6 p-0">
+                <ContactForm />
+                {/* <div className="col-6 p-0">
                     <h2 className="mb-3">Contact</h2>
                     <div className="mb-3">
                         <label htmlFor="nameInput" className="form-label">Name:</label>
@@ -18,7 +20,7 @@ function Contact(props) {
                         <label htmlFor="messageInput" className="form-label">Message:</label>
                         <textarea className="form-control" id="messageInput" rows="3"></textarea>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     );

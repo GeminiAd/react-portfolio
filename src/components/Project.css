@@ -1,7 +1,3 @@
-:root {
-    --neon-blue: #04d9ff;
-}
-
 @font-face {
     font-family: NeonTubes;
     src: url('./fonts/neontubes.otf') format("opentype");

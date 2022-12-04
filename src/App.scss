@@ -1,50 +1,72 @@
 /* Import all of the customized Bootstrap SASS */
 @import "./scss/custom.scss";
 
-.App {
-  text-align: center;
+:root {
+  --blue-yonder: #4f759b;
+  --neon-blue: #04d9ff;
+  --opal: #a3c4bc;
+  --raisin-black: #201e1f;
+
+  --cultured: #f8f9faff;
+  --cultured-2: #e9ecefff;
+  --gainsboro: #dee2e6ff;
+  --light-gray: #ced4daff;
+  --cadet-blue-crayola: #adb5bdff;
+  --sonic-silver: #6c757dff;
+  --davys-grey: #495057ff;
+  --onyx: #343a40ff;
+  --eerie-black: #212529ff;
+
+  --taupe-gray: #9a8f97ff;
+  --pale-silver: #c3babaff;
+  --platinum: #e9e3e6ff;
+  --silver-chalice: #b2b2b2ff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+// .App {
+//   text-align: center;
+// }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+// .App-logo {
+//   height: 40vmin;
+//   pointer-events: none;
+// }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
 
-.App-link {
-  color: #61dafb;
-}
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+// .App-link {
+//   color: #61dafb;
+// }
 
-  to {
-    transform: rotate(360deg);
-  }
-}
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
 
 /* 
  *  Make the section take up the whole vertical space - (header height + footer height + section top and bottom margins)
  *  so that the footer sticks to the bottom of the page but scrolls with the content.
  */
 section {
-  min-height: calc(100vh - 248px);
+  min-height: calc(100vh - 273px);
 }
