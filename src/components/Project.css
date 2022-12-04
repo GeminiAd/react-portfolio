@@ -55,7 +55,7 @@ img {
     color: white;
 }
 
-a:not(.ProjectImage) {
+.Project>a:not(.ProjectImage) {
     visibility: hidden;
     opacity: 0;
 
@@ -63,13 +63,13 @@ a:not(.ProjectImage) {
 }
 
 .Project:hover>a:not(.ProjectGithubLink),
-a:hover~a:not(.ProjectGithubLink) {
+.Project>a:hover~a:not(.ProjectGithubLink) {
     visibility: visible;
     opacity: 1;
 }
 
 .Project:hover>.ProjectGithubLink,
-a:not(.ProjectGithubLink):hover~a.ProjectGithubLink {
+.Project>a:not(.ProjectGithubLink):hover~a.ProjectGithubLink {
     visibility: visible;
     opacity: .5;
 }
@@ -80,8 +80,8 @@ a:not(.ProjectGithubLink):hover~a.ProjectGithubLink {
 }
 
 .Project:hover img,
-a:not(.ProjectImage):hover~a.ProjectImage>img,
-a.ProjectImage:hover>img {
+.Project>a:not(.ProjectImage):hover~a.ProjectImage>img,
+.Project>a.ProjectImage:hover>img {
     filter: brightness(50%);
 }
 
