@@ -1,5 +1,5 @@
 import React from "react";
-import myPhoto from '../../photo-me.png';
+import myPhoto from '../img/photo-me.png';
 
 function About(props) {
     const styles = {
