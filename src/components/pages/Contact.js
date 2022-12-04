@@ -4,7 +4,8 @@ import ContactForm from '../ContactForm';
 function Contact(props) {
     return (
         <section className="container-fluid my-4">
-            <div className="row mx-3">
+            <h2 className="mb-3 mx-3 text-center">Contact</h2>
+            <div className="row mx-3 d-flex justify-content-center">
                 <ContactForm />
                 {/* <div className="col-6 p-0">
                     <h2 className="mb-3">Contact</h2>

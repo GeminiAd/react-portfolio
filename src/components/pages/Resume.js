@@ -2,12 +2,12 @@ import React from "react";
 
 function Resume(props) {
     return (
-        <section className="m-4">
+        <section className="m-4 d-flex flex-column align-items-center">
             <h2 className="mb-4">Resume</h2>
             <p>Download my resume</p>
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-md-6 p-0">
+            <div className="container-fluid p-0">
+                <div className="row d-flex flex-row justify-content-center justify-content-md-between mx-3 mx-lg-5">
+                    <div className="col-10 col-sm-8 col-md-5 col-xl-4 p-0">
                         <h3>Front-end Proficiencies</h3>
                         <ul>
                             <li>HTML</li>
@@ -18,7 +18,7 @@ function Resume(props) {
                             <li>React</li>
                         </ul>
                     </div>
-                    <div className="col-md-6 p-0">
+                    <div className="col-10 col-sm-8 col-md-5 col-xl-4 p-0">
                         <h3>Back-end Proficiencies</h3>
                         <ul>
                             <li>APIs</li>
