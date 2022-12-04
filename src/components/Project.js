@@ -11,7 +11,7 @@ function Project(props) {
 
     return (
         <div className="col-sm-6 col-lg-4 col-xxl-3 p-2 position-relative">
-            <div className="card shadow Project" style={styles.card}>
+            <div className="card Project" style={styles.card}>
                 <a href={props.link} target="_blank" rel="noreferrer" className="ProjectImage p-0">
                     <img src={props.img} alt={props.name} className="img-fluid rounded" />
                 </a>

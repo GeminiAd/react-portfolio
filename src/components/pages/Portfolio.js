@@ -5,6 +5,7 @@ import GeoChartTrackerImage from "../img/geo-chart-tracker.png";
 import WeatherDashboardImage from "../img/weather-dashboard.png";
 import CodeQuizImage from "../img/code-quiz.png";
 import TechBlogImage from "../img/tech-blog.png";
+import WorkDaySchedulerImage from "../img/work-day-scheduler.png";
 
 function Portfolio(props) {
     const projects = [
@@ -46,6 +47,15 @@ function Portfolio(props) {
         },
         {
             id: 4,
+            name: "Work Day Scheduler",
+            img: WorkDaySchedulerImage,
+            github: "https://github.com/GeminiAd/work-day-scheduler",
+            link: "https://geminiad.github.io/work-day-scheduler/",
+            tech: "HTML/CSS/JS",
+            css: "WorkDayScheduler"
+        },
+        {
+            id: 5,
             name: "Code Quiz",
             img: CodeQuizImage,
             github: "https://github.com/GeminiAd/code-quiz",
