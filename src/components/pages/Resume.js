@@ -3,8 +3,8 @@ import React from "react";
 function Resume(props) {
     return (
         <section className="m-4 d-flex flex-column align-items-center">
-            <h2 className="mb-4">Resume</h2>
-            <p>Download my resume</p>
+            <h2 className="mb-2">Resume</h2>
+            <p className="mb-4">Download my resume</p>
             <div className="container-fluid p-0">
                 <div className="row d-flex flex-row justify-content-center justify-content-md-between mx-3 mx-lg-5">
                     <div className="col-10 col-sm-8 col-md-5 col-xl-4 p-0">
