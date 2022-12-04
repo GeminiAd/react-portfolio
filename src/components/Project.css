@@ -30,7 +30,7 @@
     height: 100%;
 }
 
-img {
+.ProjectImage>img {
     filter: brightness(100%);
 
     transition: filter .2s;
@@ -101,4 +101,24 @@ img {
 
 .ProjectTech.MassMatchup {
     font-family: Newon;
+}
+
+/* 
+ *  Make it so the projects are "hovered"  to display the github link and project descriptions on tablet 
+ *  resolutions and below since tablets and mobile devices don't use mice.
+ */
+@media (max-width: 768px) {
+    .ProjectImage>img {
+        filter: brightness(50%);
+    }
+
+    .Project>a:not(.ProjectImage) {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .Project:hover>.ProjectGithubLink,
+    .Project>a:not(.ProjectGithubLink):hover~a.ProjectGithubLink {
+        opacity: 1;
+    }
 }
