@@ -5,7 +5,7 @@ import './Project.css';
 function Project(props) {
     const styles = {
         card: {
-            border: 'solid 1px lightgrey'
+            border: 'none'
         },
     };
 

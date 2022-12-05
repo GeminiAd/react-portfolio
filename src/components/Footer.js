@@ -24,9 +24,9 @@ function Footer(props) {
 
     return (
         <footer className="container-fluid p-0" style={styles.footer}>
-            <div className="row d-flex justify-content-center align-items-center h-100 w-100">
+            <div className="row d-flex justify-content-center align-items-center h-100 w-100 m-0">
                 <div className="container-fluid h-100 m-0 col-md-8 col-xl-6 col-xxl-4">
-                    <div className="row w-100 h-100">
+                    <div className="row w-100 h-100 m-0">
                         <div className="col-4 d-flex justify-content-center align-items-center">
                             <a href="https://github.com/GeminiAd" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
                         </div>

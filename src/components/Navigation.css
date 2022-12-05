@@ -1,15 +1,38 @@
 .nav-link {
     font-family: "Vibur";
+    font-size: 2em;
 }
 
 .nav-link.active {
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em var(--neon-yellow), 0 0 0.5em var(--neon-yellow), 0 0 0.1em var(--neon-yellow), 0 10px 3px black;
+    /* text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #08f, 0 0 0.5em #08f, 0 0 0.1em #08f, 0 10px 3px black; */
+    color: azure !important;
+    text-shadow:
+        0 0 10px azure,
+        0 0 20px aqua,
+        0 0 40px dodgerblue,
+        0 0 80px blue,
+        0 10px 3px black;
 }
 
 .nav-link:not(.active) {
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #08f, 0 0 0.5em #08f, 0 0 0.1em #08f, 0 10px 3px #000;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000, 0 10px 3px black;
+    color: #fff6a9;
 }
 
 .nav-link:hover {
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em var(--neon-yellow), 0 0 0.5em var(--neon-yellow), 0 0 0.1em var(--neon-yellow), 0 10px 3px black;
+    /* color: white;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #08f, 0 0 0.5em #08f, 0 0 0.1em #08f, 0 10px 3px black; */
+    color: azure !important;
+    text-shadow:
+        0 0 10px azure,
+        0 0 20px aqua,
+        0 0 40px dodgerblue,
+        0 0 80px blue,
+        0 10px 3px black;
+}
+
+@media (max-width: 992px) {
+    .nav-link {
+        font-size: 1.5em;
+    }
 }

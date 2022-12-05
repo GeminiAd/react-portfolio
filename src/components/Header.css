@@ -3,6 +3,21 @@
 h1 {
     font-family: "Vibur";
     font-size: 3.5em;
-    color: #fee;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+    /* text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9; */
+    /* color: #fee;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000; */
+    color: white;
+    text-shadow:
+        0 0 10px white,
+        0 0 20px orangered,
+        0 0 40px red,
+        0 0 80px magenta,
+        0 10px 3px #000;
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 2.5em;
+    }
 }

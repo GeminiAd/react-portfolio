@@ -12,6 +12,7 @@
   --blue-yonder: #4f759b;
   --neon-blue: #04d9ff;
   --neon-yellow: #ccff15;
+  --neon-red: #ff4444;
   --opal: #a3c4bc;
   --raisin-black: #201e1f;
 
@@ -35,6 +36,8 @@
 
   --neon-text-color: #f40;
   --neon-border-color: #08f;
+
+  --neon-purple: #ab04ff;
 }
 
 body {
@@ -110,22 +113,40 @@ label {
 }
 
 h2 {
-  font-family: verdana;
-  font-size: 2em;
-  font-weight: 700;
-  color: #f5f5f5;
-  text-shadow: 1px 1px 1px #919191,
-    1px 2px 1px #919191,
-    1px 3px 1px #919191,
-    1px 4px 1px #919191,
-    1px 5px 1px #919191,
-    1px 6px 1px #919191,
-    1px 7px 1px #919191,
-    1px 8px 1px #919191,
-    1px 9px 1px #919191,
-    1px 10px 1px #919191,
-    1px 18px 6px rgba(16, 16, 16, 0.4),
-    1px 22px 10px rgba(16, 16, 16, 0.2),
-    1px 25px 35px rgba(16, 16, 16, 0.2),
-    1px 30px 60px rgba(16, 16, 16, 0.4);
+  font-family: "Vibur";
+  font-size: 2.75em;
+  // text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #08f, 0 0 0.5em #08f, 0 0 0.1em #08f, 0 10px 3px black;
+  // color: white;
+  // text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  // color: #fff6a9;
+  color: azure !important;
+  text-shadow:
+    0 0 10px azure,
+    0 0 20px aqua,
+    0 0 40px dodgerblue,
+    0 0 80px blue,
+    0 10px 3px black;
+}
+
+.blue-glow-btn {
+  color: black;
+  background: #04d9ff !important;
+  transition: 0.2s;
+  border: solid 1px #04d9ff;
+}
+
+.blue-glow-btn:hover,
+.blue-glow-btn:active,
+.blue-glow-btn:focus-visible {
+  background: #04d9ff !important;
+  color: black !important;
+  border: solid 1px #04d9ff !important;
+  box-shadow: 0 0 5px azure, 0 0 25px aqua, 0 0 50px dodgerblue, 0 0 200px blue !important;
+  // box-shadow: 0 0 5px #04d9ff, 0 0 25px #04d9ff, 0 0 50px #04d9ff, 0 0 200px #04d9ff !important;
+}
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 2.25em;
+  }
 }
