@@ -4,6 +4,7 @@
 :root {
   --blue-yonder: #4f759b;
   --neon-blue: #04d9ff;
+  --neon-yellow: #ccff15;
   --opal: #a3c4bc;
   --raisin-black: #201e1f;
 
@@ -21,10 +22,17 @@
   --pale-silver: #c3babaff;
   --platinum: #e9e3e6ff;
   --silver-chalice: #b2b2b2ff;
+  --uranian-blue: #bde0feff;
+  --baby-blue-eyes: #a2d2ffff;
+  --space-cadet: #2b2d42ff;
 }
 
-html {
-  background-color: var(--cultured);
+body {
+  background: url('./components/img/rain-on-glass.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 // .App {
@@ -71,6 +79,20 @@ html {
  *  Make the section take up the whole vertical space - (header height + footer height + section top and bottom margins)
  *  so that the footer sticks to the bottom of the page but scrolls with the content.
  */
-section {
+main {
   min-height: calc(100vh - 273px);
+}
+
+section {
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  /* Add box-shadow for more depth */
+  box-shadow: 0px 10px 15px 10px rgba(0, 0, 0, 0.15);
+  background-color: rgba(228, 228, 228, 0.2);
+}
+
+p,
+label {
+  color: white;
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 function Resume(props) {
     return (
-        <section className="m-4 d-flex flex-column align-items-center">
+        <section className="p-3 d-flex flex-column align-items-center col-12">
             <h2 className="mb-2">Resume</h2>
             <p className="mb-4">Download my resume</p>
             <div className="container-fluid p-0">

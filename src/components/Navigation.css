@@ -1,0 +1,15 @@
+.nav-link {
+    font-family: "Vibur";
+}
+
+.nav-link.active {
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em var(--neon-yellow), 0 0 0.5em var(--neon-yellow), 0 0 0.1em var(--neon-yellow), 0 10px 3px black;
+}
+
+.nav-link:not(.active) {
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #08f, 0 0 0.5em #08f, 0 0 0.1em #08f, 0 10px 3px #000;
+}
+
+.nav-link:hover {
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em var(--neon-yellow), 0 0 0.5em var(--neon-yellow), 0 0 0.1em var(--neon-yellow), 0 10px 3px black;
+}

@@ -1,11 +1,14 @@
 import React from 'react';
 import './Footer.css'
+import background from './img/brick.jpg';
 
 function Footer(props) {
     const styles = {
         footer: {
             height: 100,
-            backgroundColor: 'antiquewhite'
+            backgroundImage: `url(${background})`,
+            backgroundSize: '100% auto',
+            backgroundPosition: 'bottom'
         },
         ul: {
             listStyleType: 'none',

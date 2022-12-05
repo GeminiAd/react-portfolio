@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from './Navigation';
-import background from './img/rain.jpg';
+import background from './img/brick.jpg';
+import './Header.css';
 
 function Header(props) {
     const styles = {
@@ -8,13 +9,13 @@ function Header(props) {
             height: 125,
             backgroundImage: `url(${background})`,
             backgroundSize: 'cover',
-            backgroundPosition: 'center'
-        }
+            backgroundPosition: 'top'
+        },
     }
 
     return (
         <header className="d-flex justify-content-between align-items-center" style={styles.header}>
-            <h1 className="text-secondary m-0 ms-5">GeminiAd</h1>
+            <h1 className="m-0 ms-5" style={styles.h1}>GeminiAd</h1>
             <Navigation currentPage={props.currentPage} handlePageChange={props.handlePageChange} />
         </header>
     );

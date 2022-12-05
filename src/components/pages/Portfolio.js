@@ -67,8 +67,8 @@ function Portfolio(props) {
     ];
 
     return (
-        <section className="container-fluid my-4">
-            <h2 className="my-4 ms-3 text-center">Portfolio</h2>
+        <section className="container-fluid col-12 p-3">
+            <h2 className="text-center">Portfolio</h2>
             <div className="row m-2">
                 {projects.map(project =>
                     <Project
