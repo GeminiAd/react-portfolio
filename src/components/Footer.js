@@ -1,5 +1,5 @@
 import React from 'react';
-import './Footer.css'
+import './Footer.scss'
 import background from './img/brick.jpg';
 
 function Footer(props) {
