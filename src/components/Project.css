@@ -85,6 +85,8 @@
 .Project:hover>.ProjectGithubLink:hover {
     visibility: visible;
     opacity: 1;
+
+    animation: neon-white 1.5s ease-in-out infinite alternate;
 }
 
 .Project:hover img,
@@ -113,6 +115,16 @@
 
 .ProjectTech.MassMatchup {
     font-family: Newon;
+}
+
+@keyframes neon-white {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #fff;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 35px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 75px #fff;
+    }
 }
 
 /* 

@@ -11,8 +11,9 @@ function ContactForm(props) {
 
     const styles = {
         errorMessage: {
-            color: 'red',
-            fontSize: 16
+            color: 'black',
+            fontWeight: "bold",
+            fontSize: 16,
         }
     };
 

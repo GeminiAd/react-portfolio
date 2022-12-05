@@ -4,22 +4,40 @@ div:not(.Project)>a>i {
     transition: font-size .2s;
 }
 
-div:not(.Project)>a>i {
-    color: #FFDD1B;
+div:not(.Project)>a>i.bi-github {
+    color: white;
 
     &:hover {
-        cursor: pointer;
         color: #FFFFFF;
-        animation: neon 1.5s ease-in-out infinite alternate;
+        animation: neon-white 1.5s ease-in-out infinite alternate;
     }
 }
 
-@keyframes neon {
+div:not(.Project)>a>i:not(.bi-github) {
+    color: #08f;
+
+    &:hover {
+        color: #FFFFFF;
+        animation: neon-blue 1.5s ease-in-out infinite alternate;
+    }
+}
+
+@keyframes neon-white {
     from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FFDD1B, 0 0 70px #FFDD1B, 0 0 80px #FFDD1B, 0 0 100px #FFDD1B, 0 0 150px #FFDD1B;
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff, 0 0 70px #fff, 0 0 80px #fff, 0 0 100px #fff, 0 0 150px #fff;
     }
 
     to {
-        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 35px #fff, 0 0 40px #fff, 0 0 50px #fff, 0 0 75px #fff;
+    }
+}
+
+@keyframes neon-blue {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #08f, 0 0 70px #08f, 0 0 80px #08f, 0 0 100px #08f, 0 0 150px #08f;
+    }
+
+    to {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #08f, 0 0 35px #08f, 0 0 40px #08f, 0 0 50px #08f, 0 0 75px #08f;
     }
 }

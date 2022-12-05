@@ -5,6 +5,9 @@ function About(props) {
     const styles = {
         myPhoto: {
             maxHeight: 300
+        },
+        h3: {
+            color: 'white'
         }
     }
 
@@ -15,7 +18,7 @@ function About(props) {
                 <figure className="figure d-flex flex-column flex-sm-row m-0 align-items-center align-items-sm-start">
                     <img src={AboutMeImage} alt="Me" id="about-me-photo" className="figure-img img-fluid rounded shadow me-0 me-sm-4 mb-3" style={styles.myPhoto} />
                     <figcaption id="about-me-text" className="figure-caption">
-                        <h3 className="text-center text-sm-start">Adam Ferro</h3>
+                        <h3 className="text-center text-sm-start" style={styles.h3}>Adam Ferro</h3>
                         <p>I am an aspiring developer.</p>
                         <p>
                             This website is the first website I made, and I created it entirely from scratch using
