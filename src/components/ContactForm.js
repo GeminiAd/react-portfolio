@@ -67,66 +67,64 @@ function ContactForm(props) {
     }
 
     return (
-        <div className="col-md-10 col-lg-8 col-xl-6 p-0">
-            <form>
-                <div className="mb-3 position-relative">
-                    <label htmlFor="nameInput" className="form-label">Name:</label>
-                    <input
-                        value={name}
-                        name="name"
-                        type="text"
-                        className="form-control"
-                        id="nameInput"
-                        onChange={handleInputChange}
-                        onBlur={onBlur}
-                    />
-                    {nameErrorMessage && (
-                        <div className="position-absolute end-0">
-                            <p className="m-0 mt-1" style={styles.errorMessage}>{nameErrorMessage}</p>
-                        </div>
-                    )}
-                </div>
-                <div className="mb-3 position-relative">
-                    <label htmlFor="emailInput" className="form-label">Email address:</label>
-                    <input
-                        value={email}
-                        name="email"
-                        type="email"
-                        className="form-control"
-                        id="emailInput"
-                        placeholder="name@example.com"
-                        onChange={handleInputChange}
-                        onBlur={onBlur}
-                    />
-                    {emailErrorMessage && (
-                        <div className="position-absolute end-0">
-                            <p className="m-0 mt-1" style={styles.errorMessage}>{emailErrorMessage}</p>
-                        </div>
-                    )}
-                </div>
-                <div className="mb-3 position-relative">
-                    <label htmlFor="messageInput" className="form-label">Message:</label>
-                    <textarea
-                        value={message}
-                        name="message"
-                        className="form-control"
-                        id="messageInput"
-                        rows="4"
-                        onChange={handleInputChange}
-                        onBlur={onBlur}
-                    >
-                    </textarea>
-                    {messageErrorMessage && (
-                        <div className="position-absolute end-0">
-                            <p className="m-0 mt-1" style={styles.errorMessage}>{messageErrorMessage}</p>
-                        </div>
-                    )}
-                </div>
-                <button type="button" className="btn btn-primary">
-                    Submit
-                </button>
-            </form>
-        </div>
+        <form>
+            <div className="mb-3 position-relative">
+                <label htmlFor="nameInput" className="form-label">Name:</label>
+                <input
+                    value={name}
+                    name="name"
+                    type="text"
+                    className="form-control"
+                    id="nameInput"
+                    onChange={handleInputChange}
+                    onBlur={onBlur}
+                />
+                {nameErrorMessage && (
+                    <div className="position-absolute end-0">
+                        <p className="m-0 mt-1" style={styles.errorMessage}>{nameErrorMessage}</p>
+                    </div>
+                )}
+            </div>
+            <div className="mb-3 position-relative">
+                <label htmlFor="emailInput" className="form-label">Email address:</label>
+                <input
+                    value={email}
+                    name="email"
+                    type="email"
+                    className="form-control"
+                    id="emailInput"
+                    placeholder="name@example.com"
+                    onChange={handleInputChange}
+                    onBlur={onBlur}
+                />
+                {emailErrorMessage && (
+                    <div className="position-absolute end-0">
+                        <p className="m-0 mt-1" style={styles.errorMessage}>{emailErrorMessage}</p>
+                    </div>
+                )}
+            </div>
+            <div className="mb-3 position-relative">
+                <label htmlFor="messageInput" className="form-label">Message:</label>
+                <textarea
+                    value={message}
+                    name="message"
+                    className="form-control"
+                    id="messageInput"
+                    rows="4"
+                    onChange={handleInputChange}
+                    onBlur={onBlur}
+                >
+                </textarea>
+                {messageErrorMessage && (
+                    <div className="position-absolute end-0">
+                        <p className="m-0 mt-1" style={styles.errorMessage}>{messageErrorMessage}</p>
+                    </div>
+                )}
+            </div>
+            <button type="button" className="btn btn-primary">
+                Submit
+            </button>
+        </form>
     );
 }
 

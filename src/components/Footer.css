@@ -1,13 +1,13 @@
-a>i {
+div:not(.Project)>a>i {
     font-size: 2.5em;
 
     transition: font-size .2s;
 }
 
-a>i.bi-github {
-    color: black;
+div:not(.Project)>a>i.bi-github {
+    color: white;
 }
 
-a:hover>i {
+div:not(.Project)>a:hover>i {
     font-size: 3.0em;
 }

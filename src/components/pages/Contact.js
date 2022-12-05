@@ -3,11 +3,10 @@ import ContactForm from '../ContactForm';
 
 function Contact(props) {
     return (
-        <section className="container-fluid my-4">
+        <section className="col-md-10 col-lg-8 col-xl-6 d-flex flex-column p-3">
             <h2 className="mb-3 mx-3 text-center">Contact</h2>
-            <div className="row mx-3 d-flex justify-content-center">
-                <ContactForm />
-                {/* <div className="col-6 p-0">
+            <ContactForm />
+            {/* <div className="col-6 p-0">
                     <h2 className="mb-3">Contact</h2>
                     <div className="mb-3">
                         <label htmlFor="nameInput" className="form-label">Name:</label>
@@ -22,7 +21,6 @@ function Contact(props) {
                         <textarea className="form-control" id="messageInput" rows="3"></textarea>
                     </div>
                 </div> */}
-            </div>
         </section>
     );
 }

@@ -28,7 +28,13 @@ function PortfolioContainer() {
     return (
         <div className="m-0 p-0">
             <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-            {renderPage()}
+            <main className="m-4 mt-4">
+                <div className="container-fluid p-0">
+                    <div className="row d-flex justify-content-center">
+                        {renderPage()}
+                    </div>
+                </div>
+            </main>
             <Footer />
         </div>
     );

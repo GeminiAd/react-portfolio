@@ -1,4 +1,5 @@
 import React from "react";
+import './Navigation.css';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
@@ -10,7 +11,7 @@ function Navigation({ currentPage, handlePageChange }) {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav m-0">
+                    <ul className="navbar-nav m-0 d-flex align-items-baseline">
                         <li className="nav-item">
                             <a
                                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
