@@ -29,9 +29,11 @@ function About(props) {
                         </p>
                         <p>
                             Recently I entered a UC Berkeley Extension coding bootcamp for web development. I came
-                            in with no experience working with HTML, CSS, and JavaScript, and after two months I created
-                            this website using React with the knowledge I've learned so far. If you think this website
-                            looks good, hook up with me on linked in or send me an email, I'm looking for a job!
+                            in with no experience working with HTML, CSS, and JavaScript. I hated CSS at first, but now I love it:
+                            you can create such cool things using CSS, and it's something everyone visiting a website immediately sees.
+                            I make an effort to learn new CSS tricks with every project I'm involved with now.
+                            This website, built using React, is the result of two months spent studying JS, HTML, and particularly CSS.
+                            If you think this website looks good, hook up with me on linked in or send me an email: I'm looking for a job!
                         </p>
                     </figcaption>
                 </figure>
