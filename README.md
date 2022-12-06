@@ -3,7 +3,6 @@
 # Project Portfolio by React
 
 <a href="#description">Description</a> •
-<a href="#key-features">Key Features</a> •
 <a href="#usage">Usage</a> •
 <a href="#technologies-used">Technologies Used</a> •
 <a href="#concepts-demonstrated">Concepts Demonstrated</a> •
