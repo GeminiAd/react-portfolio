@@ -21,19 +21,16 @@ function About(props) {
                         <h3 className="text-center text-sm-start" style={styles.h3}>Adam Ferro</h3>
                         <p>I am an aspiring developer.</p>
                         <p>
-                            This website is the first website I made, and I created it entirely from scratch using
-                            HTML/CSS.
-                            I have some knowledge of HTML structure and its sementic elements.
-                            I also have some knowledge about styling with CSS using selectors, and advanced CSS concepts
-                            such as Flexbox layout,
-                            responsive design using media queries, pseudoclasses, wireframes, and using variables.
+                            I have a number of years of formal Computer Science training studying algorithmic
+                            effeciency, data structures,
+                            software engineering, and computer programming. I've mainly used Java while studying all of this,
+                            but I've also worked with Ruby, C, and some low-level languages like assembly/machine code.
                         </p>
                         <p>
-                            I also have a number of years of formal Computer Science training studying algorithmic
-                            effeciency, data structures,
-                            software engineering, and computer programming. I've used mainly the Java programming
-                            language while studying all of this,
-                            but I've also worked with Ruby, C, and some low-level languages like assembly/machine code.
+                            Recently I entered a UC Berkeley Extension coding bootcamp for web development. I came
+                            in with no experience working with HTML, CSS, and JavaScript, and after two months I created
+                            this website using React with the knowledge I've learned so far. If you think this website
+                            looks good, hook up with me on linked in or send me an email, I'm looking for a job!
                         </p>
                     </figcaption>
                 </figure>
