@@ -1,12 +1,7 @@
 /* Import all of the customized Bootstrap SASS */
 @import "./scss/custom.scss";
 
-@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
-
-@font-face {
-  font-family: Tonight;
-  src: url('./components/fonts/Tonight.ttf') format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 :root {
   --blue-yonder: #4f759b;
@@ -47,46 +42,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
-
-// .App {
-//   text-align: center;
-// }
-
-// .App-logo {
-//   height: 40vmin;
-//   pointer-events: none;
-// }
-
-// @media (prefers-reduced-motion: no-preference) {
-//   .App-logo {
-//     animation: App-logo-spin infinite 20s linear;
-//   }
-// }
-
-// .App-header {
-//   background-color: #282c34;
-//   min-height: 100vh;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   justify-content: center;
-//   font-size: calc(10px + 2vmin);
-//   color: white;
-// }
-
-// .App-link {
-//   color: #61dafb;
-// }
-
-// @keyframes App-logo-spin {
-//   from {
-//     transform: rotate(0deg);
-//   }
-
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }
 
 /* 
  *  Make the section take up the whole vertical space - (header height + footer height + section top and bottom margins)

@@ -6,6 +6,10 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Footer from './Footer';
 
+/* 
+ *  This is the component that wraps the portfolio application. 
+ *  The logic of what page is displayed is contained here.
+ */
 function PortfolioContainer() {
     const [currentPage, setCurrentPage] = useState('About');
 

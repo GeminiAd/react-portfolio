@@ -2,6 +2,7 @@
 import React from 'react';
 import './Project.css';
 
+/* Component for each Project in the Project Page. */
 function Project(props) {
     const styles = {
         card: {

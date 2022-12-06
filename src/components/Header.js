@@ -3,6 +3,7 @@ import Navigation from './Navigation';
 import background from './img/brick.jpg';
 import './Header.css';
 
+/* The header component. */
 function Header(props) {
     const styles = {
         header: {

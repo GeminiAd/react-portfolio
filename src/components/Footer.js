@@ -2,6 +2,7 @@ import React from 'react';
 import './Footer.scss'
 import background from './img/brick.jpg';
 
+/* The footer component. */
 function Footer(props) {
     const styles = {
         footer: {

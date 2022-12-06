@@ -1,6 +1,7 @@
 import React from "react";
 import './Navigation.css';
 
+/* The navigation component. */
 function Navigation({ currentPage, handlePageChange }) {
     return (
         <nav className="navbar mb-1 mb-sm-0 me-0 me-sm-1 me-md-2 me-lg-3 me-xl-4 me-xxl-5">

@@ -1,6 +1,7 @@
 import React from "react";
 import resume from '../documents/Resume.docx';
 
+/* The Resume Page. */
 function Resume(props) {
     const styles = {
         h3: {

@@ -7,7 +7,13 @@ import CodeQuizImage from "../img/code-quiz.png";
 import TechBlogImage from "../img/tech-blog.png";
 import WorkDaySchedulerImage from "../img/work-day-scheduler.png";
 
+/* The Porfolio Page. */
 function Portfolio(props) {
+    /* 
+     *  The list of projects. Each one has a name, image URL, github URL, URL link to the deployed application, the
+     *  technologies used, and a css class for some extra individual styling on the name and tech of each project
+     *  (currently I just have styling for MassMatchup, but that could change).
+     */
     const projects = [
         {
             id: 0,

@@ -3,14 +3,24 @@ import { validEmail } from './utils/helpers';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
+/* 
+ *  The contact form component. I didn't have to implement this as a component, it just made more sense to me
+ *  to house all the logic for the contact form in here as opposed to the contact me page itself.
+  */
 function ContactForm(props) {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
+
+    /* 
+     *  I have individual error messages for each input field. It just made more sense to me than having one
+     *  error field to display all errors.
+     */
     const [nameErrorMessage, setNameErrorMessage] = useState('');
     const [emailErrorMessage, setEmailErrorMessage] = useState('');
     const [messageErrorMessage, setMessageErrorMessage] = useState('');
 
+    /* States for the modal window that pops up on form submit. */
     const [show, setShow] = useState(false);
     const [modalMessage, setModalMessage] = useState('');
 
@@ -23,8 +33,10 @@ function ContactForm(props) {
     };
 
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
 
+    /* 
+     *  Whenever an input is deselected, check to see if the input is invalid. 
+     *  If so, display the appropriate error message. */
     const onBlur = (e) => {
         const { target } = e;
         const inputType = target.name;
@@ -47,6 +59,7 @@ function ContactForm(props) {
         }
     }
 
+    /* Logic for the form on submit. */
     const onSubmit = (e) => {
         e.preventDefault();
 
@@ -59,14 +72,13 @@ function ContactForm(props) {
 
             setModalMessage(`Thank you ${inputName}, your message has been sent.`);
             setShow(true);
-            // alert(`Thank you ${inputName}, your message has been sent.`);
         } else {
             setModalMessage("One or more required fields aren't filled out!");
             setShow(true);
-            // alert("One or more required fields aren't filled out!");
         }
     }
 
+    /* Logic for each input field on input change. */
     const handleInputChange = (e) => {
         const { target } = e;
         const inputType = target.name;

@@ -1,6 +1,7 @@
 import React from "react";
 import AboutMeImage from '../img/photo-me.png';
 
+/* The 'About Me' Page. */
 function About(props) {
     const styles = {
         myPhoto: {

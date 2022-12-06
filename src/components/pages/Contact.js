@@ -1,6 +1,7 @@
 import React from "react";
 import ContactForm from '../ContactForm';
 
+/* The 'Contact Me' Page. */
 function Contact(props) {
     return (
         <section className="col-md-10 col-lg-8 col-xl-6 d-flex flex-column p-3">
