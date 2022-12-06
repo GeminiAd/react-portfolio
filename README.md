@@ -30,6 +30,7 @@ It represents the culmination of everything I've learned so far as far as CSS is
 - I used a glowing effect on hover for the footer icons using keyframe animations and text-shadow.
 - I used a blur effect using backdrop-filter to create a 'frosted glass' effect for each content section.
 - For each project card, I used absolute positioning to position the github link, project title and project technologies over each card, and I had to use some complex css selectors to ensure that when the mouse moves over each absolutely positioned item, the others stay visible. I also reduced the brightness of the image on hover and increased the size of each card slightly using the scale css function.
+- I made a custom scrollbar.
 - Finally, I used media queries to make sure no elements overlap one another when the window is resized or the site is viewed on a mobile device.
 
 ## Usage
