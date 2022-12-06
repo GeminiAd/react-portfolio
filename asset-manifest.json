@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.85b67051.css",
-    "main.js": "/react-portfolio/static/js/main.d7b033bd.js",
+    "main.css": "/react-portfolio/static/css/main.dcab7f51.css",
+    "main.js": "/react-portfolio/static/js/main.b874123b.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/rain-on-glass.jpg": "/react-portfolio/static/media/rain-on-glass.a2805026a48adcc6dd1f.jpg",
     "static/media/mass-matchup.png": "/react-portfolio/static/media/mass-matchup.1ce67a9c6a4fe5e5e232.png",
@@ -13,16 +13,15 @@
     "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.b6876a13d3c15c6ddacd.png",
     "static/media/work-day-scheduler.png": "/react-portfolio/static/media/work-day-scheduler.f6d92c14b7d75217b419.png",
     "static/media/code-quiz.png": "/react-portfolio/static/media/code-quiz.bf000196a912af366189.png",
-    "static/media/Tonight.ttf": "/react-portfolio/static/media/Tonight.9b1c0c552c48b8662c6c.ttf",
     "static/media/Newon.otf": "/react-portfolio/static/media/Newon.1ab8c7eef66a723ea1a4.otf",
     "static/media/neontubes.otf": "/react-portfolio/static/media/neontubes.f01f7e70a4e6b2467aff.otf",
     "index.html": "/react-portfolio/index.html",
-    "main.85b67051.css.map": "/react-portfolio/static/css/main.85b67051.css.map",
-    "main.d7b033bd.js.map": "/react-portfolio/static/js/main.d7b033bd.js.map",
+    "main.dcab7f51.css.map": "/react-portfolio/static/css/main.dcab7f51.css.map",
+    "main.b874123b.js.map": "/react-portfolio/static/js/main.b874123b.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85b67051.css",
-    "static/js/main.d7b033bd.js"
+    "static/css/main.dcab7f51.css",
+    "static/js/main.b874123b.js"
   ]
 }
