@@ -15,7 +15,7 @@ function Header(props) {
 
     return (
         <header className="d-flex flex-column flex-sm-row justify-content-evenly justify-content-sm-between align-items-center" style={styles.header}>
-            <h1 className="m-0 mt-3 mt-sm-0 ms-0 ms-sm-3 ms-lg-5" style={styles.h1}>GeminiAd</h1>
+            <h1 className="m-0 mt-3 mt-sm-0 ms-0 ms-sm-5" style={styles.h1}>GeminiAd</h1>
             <Navigation currentPage={props.currentPage} handlePageChange={props.handlePageChange} />
         </header>
     );
