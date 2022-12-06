@@ -7,7 +7,7 @@ function About(props) {
             maxHeight: 300
         },
         h3: {
-            color: 'white'
+            color: 'black'
         }
     }
 

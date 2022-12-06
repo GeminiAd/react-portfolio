@@ -1,19 +1,25 @@
 import React from "react";
+import resume from '../documents/Resume.docx';
 
 function Resume(props) {
     const styles = {
         h3: {
-            color: "white"
+            color: "black",
+            fontWeight: 'bold'
         },
         ul: {
-            color: "white"
+            color: "black",
+            fontWeight: 'bold'
+        },
+        a: {
+            textDecoration: 'none'
         }
     };
 
     return (
         <section className="p-3 d-flex flex-column align-items-center col-12">
             <h2 className="mb-2">Resume</h2>
-            <p className="mb-4">Download my resume</p>
+            <p className="mb-4">Download my <a href={resume} rel="noreferrer" style={styles.a}>resume</a></p>
             <div className="container-fluid p-0">
                 <div className="row d-flex flex-row justify-content-center justify-content-md-between mx-3 mx-lg-5">
                     <div className="col-10 col-sm-8 col-md-5 col-xl-4 p-0">
@@ -21,7 +27,7 @@ function Resume(props) {
                         <ul style={styles.ul}>
                             <li>HTML</li>
                             <li>CSS</li>
-                            <li>Eesponsive Design</li>
+                            <li>Responsive Design</li>
                             <li>Bootstrap</li>
                             <li>Handlebars</li>
                             <li>React</li>

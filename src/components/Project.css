@@ -55,7 +55,7 @@
 
     z-index: 1;
 
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .ProjectGithubLink,
@@ -79,7 +79,7 @@
 .Project:hover>.ProjectGithubLink,
 .Project>a:not(.ProjectGithubLink):hover~a.ProjectGithubLink {
     visibility: visible;
-    opacity: .5;
+    opacity: 1;
 }
 
 .Project:hover>.ProjectGithubLink:hover {
