@@ -19,12 +19,12 @@ function Resume(props) {
     };
 
     return (
-        <section className="p-3 d-flex flex-column align-items-center col-12">
+        <section className="p-3 d-flex flex-column align-items-center col-12 col-lg-10 col-xl-8">
             <h2 className="mb-2">Resume</h2>
             <p className="mb-4">Download my <a href={resume} rel="noreferrer" style={styles.a}>resume</a>.</p>
-            <div className="container-fluid p-0">
-                <div className="row d-flex flex-row justify-content-center justify-content-md-between mx-3 mx-lg-5">
-                    <div className="col-10 col-sm-8 col-md-5 col-xl-4 p-0">
+            <div className="container p-0">
+                <div className="row d-flex flex-row justify-content-center px-3 px-lg-5">
+                    <div className="col-6 px-3">
                         <h3 style={styles.h3}>Front-end Proficiencies</h3>
                         <ul style={styles.ul}>
                             <li>HTML</li>
@@ -35,7 +35,7 @@ function Resume(props) {
                             <li>React</li>
                         </ul>
                     </div>
-                    <div className="col-10 col-sm-8 col-md-5 col-xl-4 p-0">
+                    <div className="col-6 px-3">
                         <h3 style={styles.h3}>Back-end Proficiencies</h3>
                         <ul style={styles.ul}>
                             <li>APIs</li>
