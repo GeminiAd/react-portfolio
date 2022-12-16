@@ -24,7 +24,7 @@ function Resume(props) {
             <p className="mb-4">Download my <a href={resume} rel="noreferrer" style={styles.a}>resume</a>.</p>
             <div className="container p-0">
                 <div className="row d-flex flex-row justify-content-center px-3 px-lg-5">
-                    <div className="col-6 px-3">
+                    <div className="col-12 col-sm-6 px-3">
                         <h3 style={styles.h3}>Front-end Proficiencies</h3>
                         <ul style={styles.ul}>
                             <li>HTML</li>
@@ -35,7 +35,7 @@ function Resume(props) {
                             <li>React</li>
                         </ul>
                     </div>
-                    <div className="col-6 px-3">
+                    <div className="col-12 col-sm-6 px-3">
                         <h3 style={styles.h3}>Back-end Proficiencies</h3>
                         <ul style={styles.ul}>
                             <li>APIs</li>
