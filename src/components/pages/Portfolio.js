@@ -22,6 +22,7 @@ function Portfolio(props) {
             img: AspirationArchitectsImage,
             github: "https://github.com/GeminiAd/website-builder",
             link: "https://aspiration-architects.herokuapp.com/",
+            description: "A website that builds websites.",
             tech: "MongoDB/Express/React/Node",
             css: "AspirationArchitects"
         },
@@ -31,6 +32,7 @@ function Portfolio(props) {
             img: MassMatchupImage,
             github: "https://github.com/theDomConrad/Mass-Matchup",
             link: "https://mass-matchup.herokuapp.com/",
+            description: "Compare your stats on Steam with other players.",
             tech: "MySQL/Express/Handlebars",
             css: "MassMatchup"
         },
@@ -40,6 +42,7 @@ function Portfolio(props) {
             img: GeoChartTrackerImage,
             github: "https://github.com/JCaloca/Geo-Chart-Tracker",
             link: "https://jcaloca.github.io/Geo-Chart-Tracker/",
+            description: "See what tracks and artists are popular around the world on last.fm.",
             tech: "HTML/CSS/JS",
             css: "GeoChartTracker"
         },
@@ -49,6 +52,7 @@ function Portfolio(props) {
             img: TechBlogImage,
             github: "https://github.com/GeminiAd/tech-blog",
             link: "https://salty-crag-65332.herokuapp.com/",
+            description: "A simple blog where users can post about technology.",
             tech: "Handlebars/SQL/Express",
             css: "TechBlog"
         },
@@ -58,6 +62,7 @@ function Portfolio(props) {
             img: WeatherDashboardImage,
             github: "https://github.com/GeminiAd/weather-dashboard",
             link: "https://geminiad.github.io/weather-dashboard/",
+            description: "See the 5-day forecast for any city in the world.",
             tech: "HTML/CSS/JS",
             css: "WeatherDashboard"
         },
@@ -67,6 +72,7 @@ function Portfolio(props) {
             img: WorkDaySchedulerImage,
             github: "https://github.com/GeminiAd/work-day-scheduler",
             link: "https://geminiad.github.io/work-day-scheduler/",
+            description: "Schedule your work day.",
             tech: "HTML/CSS/JS",
             css: "WorkDayScheduler"
         },
@@ -76,6 +82,7 @@ function Portfolio(props) {
             img: CodeQuizImage,
             github: "https://github.com/GeminiAd/code-quiz",
             link: "https://geminiad.github.io/code-quiz/",
+            description: "Test your knowledge of JavaScript with this timed quiz.",
             tech: "HTML/CSS/JS",
             css: "CodeQuiz"
         },
@@ -93,6 +100,7 @@ function Portfolio(props) {
                         img={project.img}
                         github={project.github}
                         link={project.link}
+                        description={project.description}
                         tech={project.tech}
                         css={project.css}
                     />

@@ -16,8 +16,9 @@ function Project(props) {
                 <a href={props.link} target="_blank" rel="noreferrer" className="ProjectImage p-0">
                     <img src={props.img} alt={props.name} className="img-fluid rounded" />
                 </a>
-                <a href={props.link} target="_blank" rel="noreferrer" className={`position-absolute top-0 start-0 ProjectDescription m-3 ${props.css}`}>{props.name}</a>
+                <a href={props.link} target="_blank" rel="noreferrer" className={`position-absolute top-0 start-0 ProjectTitle ms-3 mt-3 ${props.css}`}>{props.name}</a>
                 <a href={props.github} target="_blank" rel="noreferrer" className="ProjectGithubLink m-2 me-3"><i className="bi bi-github"></i></a>
+                <a href={props.link} target="_blank" rel="noreferrer" className={`position-absolute top-50 start-0 translate-middle-y ProjectDescription mx-3 ${props.css}`}>{props.description}</a>
                 <a href={props.link} target="_blank" rel="noreferrer" className={`position-absolute bottom-0 start-0 ProjectTech m-3 ${props.css}`}>{props.tech}</a>
             </div>
         </div>

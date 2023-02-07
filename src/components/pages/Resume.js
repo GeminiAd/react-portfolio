@@ -1,5 +1,5 @@
 import React from "react";
-import resume from '../documents/Resume.docx';
+import resume from '../documents/Resume.pdf';
 
 /* The Resume Page. */
 function Resume(props) {

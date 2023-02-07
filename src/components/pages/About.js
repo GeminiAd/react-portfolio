@@ -23,16 +23,20 @@ function About(props) {
                         <p>I am an aspiring developer.</p>
                         <p>
                             I have a number of years of formal Computer Science training studying algorithmic
-                            effeciency, data structures,
-                            software engineering, and computer programming. I've mainly used Java while studying all of this,
-                            but I've also worked with Ruby, C, and some low-level languages like assembly/machine code.
+                            effeciency, data structures, software engineering, and computer programming. I've mainly used Java
+                            while studying all of this, but I've also worked with Ruby, C, and some low-level languages like
+                            assembly/machine code.
                         </p>
                         <p>
-                            Recently I entered a UC Berkeley Extension coding bootcamp for web development. I came
-                            in with no experience working with HTML, CSS, and JavaScript. I hated CSS at first, but now I love it:
-                            you can create such cool things using CSS, and it's something everyone visiting a website immediately sees.
-                            I make an effort to learn new CSS tricks with every project I'm involved with now.
-                            This website, built using React, is the result of two months spent studying JS, HTML, and particularly CSS.
+                            Recently I completed a three month intensive coding bootcamp with a certificate in web development.
+                            I have experience with server routing and setting up APIs using Express.js for Node.js. I also have experience
+                            with setting up and using databases, specifically with Sequelize/MySQL and Mongoose/MongoDB. I've spent
+                            countless hours studying CSS trying to make flashy effects that catch people's attention, and I've since
+                            developed a passion for front-end development. I'm skilled with HTML, CSS, Handlebars and React.
+                            I love problem-solving: it's so rewarding when I can't make something happen either with CSS or JavaScript and I keep working until I make my vision a reality.
+                        </p>
+                        <p>
+                            This website, built using React, is the result of three months spent studying JS, HTML, and particularly CSS.
                             If you think this website looks good, hook up with me on linked in or send me an email: I'm looking for a job!
                         </p>
                     </figcaption>
